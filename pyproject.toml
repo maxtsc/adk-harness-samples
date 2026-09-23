@@ -1,0 +1,13 @@
+[project]
+name = "adk-harness-samples"
+version = "0.1.0"
+description = "Simple harness samples with ADK"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=2.9.2",
+    "google-agents-cli>=1.6.1",
+]
+
+[tool.uv]
+package = false
